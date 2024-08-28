@@ -18,7 +18,7 @@ function App() {
       <Header />
         {/* Toaster component for react-hot-toast */}
         <Toaster position='top-center' reverseOrder={false} />
-      <main className="container h-full p-4 mx-auto mb-24">
+      <main className="container h-full p-4 mx-auto">
         <Routes>
           <Route
             path="/"
